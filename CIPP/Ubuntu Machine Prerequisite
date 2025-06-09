@@ -1,0 +1,8 @@
+Pré-requis Ubuntu 24.04:
+Installer PostgreSQL
+installer les packages: unixodbc odbc-postgresql libodbc2
+Installer PowerShell 7.5+ (ne pas utiliser snap)
+(Otionnel)Installer pgadmin et webmin
+(Optionel)Configurer Apache et postgresl pour utiliser SSL
+Configurer une cron Schedule task poiur executer le sctip 1 fois par jour.
+  -pwsh -File "/opt/<script folder>/CIPP-ExtractUsersWithLicences.ps1"
